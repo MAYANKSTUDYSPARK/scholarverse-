@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScholarVerse Network</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splash">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="card">
+      <div class="icon">!</div>
+
+      <h1>Website Under Maintenance</h1>
+
+      <p>
+        Our website is currently undergoing scheduled upgrades to improve
+        performance and add new features.
+        Please check back soon.
+      </p>
+
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="thanks">
+        Thank you for your patience 💜
+      </div>
+    </div>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      document.getElementById("splash").style.display = "none";
+    }, 2000);
+  </script>
+
+</body>
+</html>
